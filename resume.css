@@ -128,6 +128,9 @@ margin-bottom: 20px;
     .contact-me {
       display: none;
     }
+    .navbar {
+      display: none;
+    }
   }
   @media (max-width: 750px) {
     .menu-wrap {

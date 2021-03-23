@@ -56,7 +56,7 @@
 .contact-me {
   position: absolute;
   margin-left: 2%;
-  
+
   width: 20px;
   margin-top: 150px;
   /* margin-right: 100px; */
@@ -159,14 +159,17 @@
   margin-bottom: 20px;
 }
 
-.button-list{
- border: 1px solid #ff652f;
+.button-list {
+  border: 1px solid #ff652f;
 }
 @media (max-width: 750px) {
   .folio-img {
     display: none;
   }
   .contact-me {
+    display: none;
+  }
+  .navbar {
     display: none;
   }
   .menu-wrap {
@@ -191,7 +194,6 @@
     /* display: inline-block; */
     flex-wrap: wrap;
     display: flex;
-   
   }
   .about-me {
     /* width: 100%; */
@@ -200,8 +202,8 @@
     max-width: 100%;
   }
 }
-@media (max-width: 470px){
-  .all-abt-div{
+@media (max-width: 470px) {
+  .all-abt-div {
     margin-left: 50px;
     display: flex;
     width: 90%;
@@ -215,7 +217,6 @@
   }
   .all-abt-div {
     margin-top: 100px;
-
   }
   .abt-me-mainpar {
     width: 80%;
@@ -229,7 +230,6 @@
     width: 80%;
     padding-bottom: 0;
   }
- 
 }
 @media (max-width: 912px) {
   .folio-img {
@@ -253,7 +253,7 @@
     margin-left: 0;
   }
 }
-@media (max-width: 700px){
+@media (max-width: 700px) {
   .abt-me-details {
     display: flex;
     flex-direction: column;
@@ -273,5 +273,4 @@
     width: 80%;
     padding-bottom: 0;
   }
- 
 }

@@ -38,17 +38,12 @@ body {
   width: 10px;
   height: 10px;
   margin: 20px 12px;
-  /* border-radius: 50%; */
-  z-index: 10;
+  /* z-index: 10; */
   border: 1px solid rgb(0, 0, 0);
-  /* outline: none; */
-  /* outline: #ff652f; */
-  /* outline-offset: -6px; */
   box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
-  /* appearance: none; */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -143,6 +138,9 @@ body {
 }
 @media (max-width: 700px) {
   .contact-me {
+    display: none;
+  }
+  .navbar {
     display: none;
   }
 }

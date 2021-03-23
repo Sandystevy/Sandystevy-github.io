@@ -69,6 +69,9 @@ textarea:focus {
   .contact-me {
     display: none;
   }
+  .navbar {
+    display: none;
+  }
 }
 @media (max-width: 750px) {
   .first-box {

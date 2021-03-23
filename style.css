@@ -70,7 +70,7 @@ nav .showcase {
   text-align: center;
   height: 100%;
   letter-spacing: 0.13em;
-  padding-top: 180px;
+  padding-top: 150px;
   color: rgb(248, 219, 180);
 }
 .contact-me {
@@ -147,7 +147,6 @@ nav .showcase {
   content: "|";
   position: absolute;
   right: -6px;
-
   animation: caret infinite;
   animation-duration: 1s;
   animation-timing-function: steps(1, end);
@@ -162,7 +161,7 @@ nav .showcase {
 
   60%,
   90% {
-    width: 12em;
+    width: 14em;
   }
 }
 
@@ -228,8 +227,6 @@ nav .showcase {
   text-decoration: none;
   width: 100px;
   overflow: hidden;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 a span {
   position: relative;
