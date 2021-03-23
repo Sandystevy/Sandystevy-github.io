@@ -56,10 +56,11 @@ textarea:focus {
 .submit {
   font-weight: bold;
   font-size: 11px;
-  width: 100px;
+  width: 110px;
+  margin-top: 10px;
   height: 30px;
   border: none;
-  background-color: #ff652f;
+  background-color: #f84200;
   cursor: pointer;
 }
 .submit:hover {
