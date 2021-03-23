@@ -1,0 +1,131 @@
+body,
+html {
+  overflow: visible;
+}
+.portfolio {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.Port-links {
+  position: relative;
+  margin-top: 50px;
+}
+.Port-links a {
+  /* border: 2px solid #ff652f;   */
+  color: white;
+  font-size: 11px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 20px;
+  outline: none;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+/* .Port-links a{
+  background-color: #ff652f;
+  } */
+.Port-links a:hover {
+  background-color: #ff652f;
+}
+@media (max-width: 700px) {
+  .resume-div {
+    margin-left: -8px;
+  }
+  .Port-links a {
+    /* width: 10px; */
+    font-size: 12px;
+    /* margin: 20px; */
+    margin-right: -10px;
+  }
+  .img-div {
+    /* margin-top: 40px; */
+  }
+}
+.img-div {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  min-width: 200px;
+  justify-content: center;
+  align-content: center;
+}
+.work-images {
+  margin: 10px;
+  /* z-index: -1; */
+  position: relative;
+  /* display: flex;
+flex-wrap: wrap;
+max-width: 1000px;
+min-width: 200px; */
+  /* height: 100vh; */
+}
+.img-hover {
+  width: 250px;
+}
+.img-hover:hover {
+  transition: transform 0.2s;
+  opacity: 1;
+  display: block;
+  width: 230px;
+  height: auto;
+  animation: zoominoutsinglefeatured 2s linear;
+}
+@media (max-width: 700px) {
+  .contact-me {
+    display: none;
+  }
+}
+@keyframes zoominoutsinglefeatured {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.single-featured-image-header img {
+  animation: zoominoutsinglefeatured 15s forwards;
+}
+/* .img-effect:hover {
+  transform: scale(1.2); 
+ transition: .5s ease-in-out; 
+} */
+.overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  animation: easedown 1s linear;
+}
+
+.work-images:hover .img-hover {
+  opacity: 0.3;
+  transition: 0.5s ease;
+}
+
+.work-images:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-size: 11px;
+  /* background-color: #4CAF50; */
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  /* padding: 16px 32px; */
+}
+.creative-txt {
+}
+.wdesign-txt {
+}

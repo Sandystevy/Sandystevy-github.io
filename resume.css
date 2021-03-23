@@ -1,0 +1,230 @@
+
+.contact-me {
+  position: absolute;
+  position: fixed;
+  margin-left: 2%;
+  width: 20px;
+   margin-top: 150px;
+}
+
+.resume-circle {
+    background-color: #ff652f;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+  }
+  .resume {
+    padding-top: 5px;
+    height: 25px;
+    margin-right: 410px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bolder;
+   
+  }
+  .resume-intro {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+  .lines{
+      display: flex;
+      margin-left: 50px;
+      align-items: center;
+    
+   
+  }
+  .first-line {
+    width: 50px;
+    height: 4px;
+    background-color: #ff652f;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    /* margin-left: 100px; */
+    
+  }
+  .first-dot {
+    width: 50px;
+    height: 4px;
+    background-color: #ff652f;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+  }
+  .second-dot {
+    width: 50px;
+    height: 4px;
+    background-color: #ff652f;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+  }
+  .second-line {
+    width: 50px;
+    height: 4px;
+    background-color: #ff652f;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .resume-div{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    /* margin-left: 30px; */
+    margin-top: 100px;
+}
+
+.resume-details{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* width: 80%; */
+}
+.resume-right{
+    border-left: 1px solid #ff652f;
+    padding-left: 20px;
+ 
+}
+.resume-left{
+    border-left: 1px solid #ff652f;
+    padding-left: 20px;
+}
+.edu,
+.exp{
+font-size: 16px;
+font-weight: bolder;
+margin-bottom: 20px;
+}
+
+  .resume-head {
+    padding: 0;
+    /* font-size: 11px; */
+    margin-bottom: 5px;
+    margin-left: 35px;
+  }
+  .resume-posi{
+    font-size: 10px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+  }
+  .resume-mainpar {
+      width: 60%;
+    /* width: 300px; */
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 700px) {
+    .contact-me {
+      display: none;
+    }
+  }
+  @media (max-width: 750px) {
+    .menu-wrap {
+      position: fixed;
+      top: 0;
+      left: 80%;
+      /* width: 20%; */
+      /* z-index: 1; */
+    }
+    .resume-div {
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start;
+    }
+    .resume-intro {
+      font-size: 14px;
+    }
+    .lines{
+        margin-left: 0px;
+    }
+     
+    }
+    .resume-header {
+      /* width: 100%; */
+      /* height: 50%; */
+      margin-top: 50px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 470px){
+    .resume-div{
+      margin-left: 50px;
+      display: flex;
+      width: 90%;
+      margin-left: -20px;
+    }
+  }
+  @media (max-width: 570px) {
+    .resume-header{
+      justify-content: center;
+      align-content: center;
+     margin-left: -70px;
+    }
+    .resume-details {
+      display: flex;
+      flex-direction: column;
+    }
+    .resume-div {
+      margin-top: 100px;
+  
+    }
+    .resume-left {
+      margin: 0;
+      width: 80%;
+      padding-bottom: 0;
+    }
+    .resume-right {
+      width: 80%;
+      padding-bottom: 0;
+    }
+   
+  }
+  @media (max-width: 912px) {
+
+    .resume-intro {
+   
+      font-size: 22px;
+     
+    }
+    .resume-div {
+      font-size: 20px;
+      /* margin-top: 100px; */
+    }
+    .resume-left {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 700px){
+    .resume-details {
+      display: flex;
+      flex-direction: column;
+    }
+    .resume-div {
+      margin-top: 100px;
+    }
+    .resume-left {
+      margin: 0;
+      width: 80%;
+      padding-bottom: 0;
+    }
+    .resume-right {
+      width: 80%;
+      padding-bottom: 0;
+    }
+   
+  }
+ 
